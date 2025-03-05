@@ -8,7 +8,7 @@ public class Problem2 {
             if (merged.containsKey(key)) {
                 merged.put(key, merged.get(key) + map2.get(key));
             } else {
-                // BUG: Incorrectly using a literal "key" instead of the variable key.
+
                 merged.put("key", map2.get(key));
             }
         }

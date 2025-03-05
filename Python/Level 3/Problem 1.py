@@ -1,6 +1,6 @@
 def calculate_average(arr):
     total = 0
-    # BUG: Loop iterates one extra time, causing an IndexError.
+    
     for i in range(len(arr) + 1):
         total += arr[i]
     return total / len(arr)

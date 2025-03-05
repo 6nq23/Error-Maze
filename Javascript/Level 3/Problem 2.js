@@ -4,7 +4,7 @@ function mergeObjects(obj1, obj2) {
       if (merged.hasOwnProperty(key)) {
         merged[key] = merged[key] + obj2[key];
       } else {
-        // BUG: Using dot notation (merged.key) assigns to property "key" literally.
+        
         merged.key = obj2[key];
       }
     }

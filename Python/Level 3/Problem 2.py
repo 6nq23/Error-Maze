@@ -4,7 +4,7 @@ def merge_dictionaries(dict1, dict2):
         if key in merged:
             merged[key] = merged[key] + value
         else:
-            # BUG: Incorrect syntax for adding a new key-value pair.
+            
             merged.key = value  
     return merged
 
